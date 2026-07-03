@@ -1,6 +1,6 @@
-# GenoMRisk AI: Genomic Disease Risk Predictor
+# GenomeRisk AI: Genomic Disease Risk Predictor
 
-GenoMRisk AI is a machine learning-powered health platform that analyzes raw genomic sequence data (.vcf) to predict predispositions for key health traits. By extracting genomic variants, the pipeline maps alternate allele dosages (0/1/2 encoding) relative to reference genome assembly version GRCh38 onto trained XGBoost classifiers.
+GenomeRisk AI is a machine learning-powered health platform that analyzes raw genomic sequence data (.vcf) to predict predispositions for key health traits. By extracting genomic variants, the pipeline maps alternate allele dosages (0/1/2 encoding) relative to reference genome assembly version GRCh38 onto trained XGBoost classifiers.
 
 The platform provides a modern clinical dashboard with advanced Explainable AI (XAI) feature attribution maps (SHAP values and DeepLIFT attribution scores) and live NCBI dbSNP integrations.
 
