@@ -1,0 +1,23 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "reload": true
+  },
+  "cors": {
+    "allow_origins": [
+      "http://localhost:3000",
+      "http://127.0.0.1:3000"
+    ]
+  },
+  "model": {
+    "directory": "../webapp_export",
+    "threshold": 0.5,
+    "n_windows": 50,
+    "window_size": 1000
+  },
+  "upload": {
+    "directory": "./uploads",
+    "max_size_mb": 100
+  }
+}

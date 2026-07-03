@@ -1,0 +1,44 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+backend/.venv/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+backend/__pycache__/
+
+# Node / JS dependencies
+node_modules/
+genomrisk-frontend/genomrisk/node_modules/
+
+# Production builds
+dist/
+build/
+genomrisk-frontend/genomrisk/dist/
+
+# Local configuration and environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Project-specific local files and temporary analysis data
+backend/analysis_history.json
+backend/temp_*.vcf
